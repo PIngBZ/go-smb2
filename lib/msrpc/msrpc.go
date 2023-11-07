@@ -4,7 +4,7 @@ import (
 	"encoding/binary"
 	"encoding/hex"
 
-	"github.com/LeakIX/go-smb2/lib/utf16le"
+	"github.com/PIngBZ/go-smb2/lib/utf16le"
 )
 
 var le = binary.LittleEndian

@@ -5,9 +5,9 @@ import (
 	"crypto/aes"
 	"encoding/hex"
 
-	"github.com/LeakIX/go-smb2/lib/crypto/cmac"
+	"github.com/PIngBZ/go-smb2/lib/crypto/cmac"
 
-	. "github.com/LeakIX/go-smb2/lib/smb2"
+	. "github.com/PIngBZ/go-smb2/lib/smb2"
 
 	"testing"
 )

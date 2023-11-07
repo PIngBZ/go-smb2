@@ -13,10 +13,10 @@ import (
 	"sync"
 	"time"
 
-	. "github.com/LeakIX/go-smb2/lib/erref"
-	. "github.com/LeakIX/go-smb2/lib/smb2"
+	. "github.com/PIngBZ/go-smb2/lib/erref"
+	. "github.com/PIngBZ/go-smb2/lib/smb2"
 
-	"github.com/LeakIX/go-smb2/lib/msrpc"
+	"github.com/PIngBZ/go-smb2/lib/msrpc"
 )
 
 // Dialer contains options for func (*Dialer) Dial.

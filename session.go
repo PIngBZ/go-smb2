@@ -12,11 +12,11 @@ import (
 	"fmt"
 	"hash"
 
-	"github.com/LeakIX/go-smb2/lib/crypto/ccm"
-	"github.com/LeakIX/go-smb2/lib/crypto/cmac"
+	"github.com/PIngBZ/go-smb2/lib/crypto/ccm"
+	"github.com/PIngBZ/go-smb2/lib/crypto/cmac"
 
-	. "github.com/LeakIX/go-smb2/lib/erref"
-	. "github.com/LeakIX/go-smb2/lib/smb2"
+	. "github.com/PIngBZ/go-smb2/lib/erref"
+	. "github.com/PIngBZ/go-smb2/lib/smb2"
 )
 
 func sessionSetup(conn *conn, i Initiator, ctx context.Context) (*session, error) {

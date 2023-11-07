@@ -3,8 +3,8 @@ package smb2
 import (
 	"encoding/asn1"
 	"errors"
-	"github.com/LeakIX/go-smb2/lib/spnego"
-	"github.com/LeakIX/ntlmssp"
+	"github.com/PIngBZ/go-smb2/lib/spnego"
+	"github.com/PIngBZ/ntlmssp"
 )
 
 // NTLMInitiator implements session-setup through NTLMv2.

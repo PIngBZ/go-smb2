@@ -11,8 +11,8 @@ import (
 	"sync/atomic"
 	"time"
 
-	. "github.com/LeakIX/go-smb2/lib/erref"
-	. "github.com/LeakIX/go-smb2/lib/smb2"
+	. "github.com/PIngBZ/go-smb2/lib/erref"
+	. "github.com/PIngBZ/go-smb2/lib/smb2"
 )
 
 // Negotiator contains options for func (*Dialer) Dial.

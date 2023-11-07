@@ -2,12 +2,12 @@ package smb2_test
 
 import (
 	"fmt"
-	"github.com/LeakIX/ntlmssp"
+	"github.com/PIngBZ/ntlmssp"
 	"io"
 	"io/ioutil"
 	"net"
 
-	"github.com/LeakIX/go-smb2"
+	"github.com/PIngBZ/go-smb2"
 )
 
 func Example() {

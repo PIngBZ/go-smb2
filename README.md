@@ -16,12 +16,12 @@ SMB2/3 client implementation.
 Installation
 ------------
 
-`go get github.com/LeakIX/go-smb2@master`
+`go get github.com/PIngBZ/go-smb2@master`
 
 Documentation
 -------------
 
-http://godoc.org/github.com/LeakIX/go-smb2
+http://godoc.org/github.com/PIngBZ/go-smb2
 
 Examples
 --------
@@ -34,8 +34,8 @@ package main
 import (
 	"fmt"
 	"net"
-	"github.com/LeakIX/ntlmssp"
-	"github.com/LeakIX/go-smb2"
+	"github.com/PIngBZ/ntlmssp"
+	"github.com/PIngBZ/go-smb2"
 )
 
 func main() {
@@ -84,8 +84,8 @@ import (
 	"io"
 	"io/ioutil"
 	"net"
-	"github.com/LeakIX/ntlmssp"
-	"github.com/LeakIX/go-smb2"
+	"github.com/PIngBZ/ntlmssp"
+	"github.com/PIngBZ/go-smb2"
 )
 
 func main() {
@@ -156,8 +156,8 @@ import (
 	"fmt"
 	"net"
 	"os"
-	"github.com/LeakIX/ntlmssp"
-	"github.com/LeakIX/go-smb2"
+	"github.com/PIngBZ/ntlmssp"
+	"github.com/PIngBZ/go-smb2"
 )
 
 func main() {
@@ -219,8 +219,8 @@ import (
 	"fmt"
 	"net"
 	iofs "io/fs"
-	"github.com/LeakIX/ntlmssp"
-	"github.com/LeakIX/go-smb2"
+	"github.com/PIngBZ/ntlmssp"
+	"github.com/PIngBZ/go-smb2"
 )
 
 func main() {

@@ -4,7 +4,7 @@ import (
 	"context"
 	"fmt"
 
-	. "github.com/LeakIX/go-smb2/lib/erref"
+	. "github.com/PIngBZ/go-smb2/lib/erref"
 )
 
 // TransportError represents a error come from net.Conn layer.

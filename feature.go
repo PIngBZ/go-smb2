@@ -1,7 +1,7 @@
 package smb2
 
 import (
-	. "github.com/LeakIX/go-smb2/lib/smb2"
+	. "github.com/PIngBZ/go-smb2/lib/smb2"
 )
 
 // client

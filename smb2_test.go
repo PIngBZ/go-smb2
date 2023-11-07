@@ -7,7 +7,7 @@ import (
 	"context"
 	"encoding/json"
 	"fmt"
-	"github.com/LeakIX/ntlmssp"
+	"github.com/PIngBZ/ntlmssp"
 	"io"
 	"io/ioutil"
 	"net"
@@ -17,7 +17,7 @@ import (
 	"strings"
 	"time"
 
-	"github.com/LeakIX/go-smb2"
+	"github.com/PIngBZ/go-smb2"
 
 	"testing"
 )
